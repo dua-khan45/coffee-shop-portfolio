@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-
 const Hero = () => {
     return (
        <section className="heroSection" id="home">
@@ -11,7 +10,7 @@ const Hero = () => {
             <div className="textContainer">
                 <h1>Bean & Blossom</h1>
                 <p>
-                At Nest & Nectar, we believe coffee is more than just a drink – it's a ritual, a moment of warmth, and a spark for inspiration. Every cup we serve begins its journey in the world’s most celebrated coffee-growing regions, where each bean is carefully handpicked and expertly roasted to bring out its unique character and depth.
+                At Nest &amp; Nectar, we believe coffee is more than just a drink – it&apos;s a ritual, a moment of warmth, and a spark for inspiration. Every cup we serve begins its journey in the world&apos;s most celebrated coffee-growing regions, where each bean is carefully handpicked and expertly roasted to bring out its unique character and depth.
                 </p>
             </div>
        </section>
@@ -19,3 +18,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
